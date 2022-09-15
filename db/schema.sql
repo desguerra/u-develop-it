@@ -1,3 +1,10 @@
+/* create a table named `parties` */
+CREATE TABLE parties (
+  id INTEGER AUTO_INCREMENT PRIMARY KEY,
+  name VARCHAR(50) NOT NULL,
+  description TEXT
+);
+
 /* create a table named `candidates` */
 CREATE TABLE candidates (
     id INTEGER AUTO_INCREMENT PRIMARY KEY,
